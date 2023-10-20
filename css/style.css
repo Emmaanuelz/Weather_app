@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container{
+    max-width: 400px;
+    margin: 20vh auto;
+    padding: 20px;
+    background-color: #fff;
+    background: linear-gradient(#723920, rgb(228,139,47), #28353d);
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,  0.5);
+}
+h1{
+    color: #333;
+}
+.weather{
+    margin-top: 20px;
+}
+input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+button{
+    padding: 10px 20px;
+    background-color: #3498db;
+    background: linear-gradient(#723920, rgb(228,139,47), #28353d);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.result{
+    display: none;
+    margin-top: 20px;
+}
+.result p{
+    color: #f5eded;
+    font-weight: 600;
+}
+
+
+@media only screen and (min-width: 768px){
+    .container{
+        margin: 35vh auto;
+    }
+}
+
+/* For tablet */
+@media only screen and (min-width: 600px){
+    .container{
+        margin: 35vh auto;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container{
+        margin: 35vh auto;
+    }
+}
